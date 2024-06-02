@@ -19,10 +19,14 @@ This is a simple Java-based microservice API for managing hotel bookings. It pro
 
 1. Clone the repository to your local machine:
 
+git clone https://github.com/virendraraidmo/hotelapi.git
+
 2. Navigate to the project directory:
 
-3. Build the project using Maven
+   cd hotelapi
 
+4. Build the project using Maven
+maven clean install
 #
 
 
@@ -31,7 +35,7 @@ This is a simple Java-based microservice API for managing hotel bookings. It pro
 #Usage
 
 1. Run the main class HotelBookingApi to start the HTTP server:
-java -cp target/classes com.devtest.controller.HotelBookingApi
+java -cp target/classes com.hotelapi.controller.HotelBookingApi
 
 2. Use a tool like cURL or Postman to make HTTP requests to the API endpoints:
 
@@ -48,7 +52,7 @@ URL : http://localhost:8080/available-rooms?date=2024-06-02
 -Find Bookings for Guest:
 GET /bookings-for-guest?guestName={guestName}
 
-URL : http://localhost:8080/bookings-for-guest?guestName=Virendra%20Joe 
+URL : http://localhost:8080/bookings-for-guest?guestName=Virendra%20Rai 
 
 
 

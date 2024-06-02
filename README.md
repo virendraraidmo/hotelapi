@@ -52,16 +52,16 @@ URL : http://localhost:8080/bookings-for-guest?guestName=Virendra%20Joe
 
 
 
-## Process to create the Application
+## Process to create the Hotel Booking Application
 
 
-Creating a basic RAG (Red, Amber, Green) model AI chatbot in Java can be done using various open-source libraries such as OpenNLP for natural language processing and Supabase for the database. For simplicity, I'll outline a basic structure for the chatbot along with a simple implementation using Java, HTML, CSS, and JavaScript.
+for reating a Simple Hotel Booking application in Java can be done using a simple implementation using Java, HTML, CSS, and JavaScript.
 
 Here's a basic overview of what we'll do:
 
-Frontend: Create a basic HTML/CSS/JS interface for the chatbot.
+Frontend: Create a basic HTML/CSS/JS interface for the Hotel Booking api .
 Backend: Develop a Java application that handles the chatbot logic.
-Database: Utilize Supabase as the database for storing RAG model information.
+Database: Utilize Supabase as the database for storing Hotel Booking information.
 
 
 ## Backend (Java):
@@ -320,7 +320,7 @@ public class HotelBookingApi {
         }
     }
 }
-
+------------------------------------------------------------
 #BookingManager.java
 
 package com.hotelapi.manager;
@@ -338,7 +338,7 @@ public interface BookingManager {
 
 }
 
-
+---------------------------------------------------------------------
 # HotelBookingManager.java
 
 package com.hotelapi.manager;
@@ -419,7 +419,7 @@ public class HotelBookingManager implements BookingManager{
         }
     }
 }
-
+--------------------------------------------------------------------------
 # Build Configuration (Maven)
 
 # pom.xml
